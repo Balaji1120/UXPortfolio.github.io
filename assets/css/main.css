@@ -118,6 +118,25 @@ h6 {
   animation: php-email-form-loading 1s linear infinite;
 }
 
+
+
+iframe {
+    width: 100%; /* Ensures the iframe takes full width */
+    height: 350px; /* Adjust height as needed */
+    margin-right: -20px; /* Default margin for desktop */
+    border: none; /* Removes iframe border */
+}
+
+
+  /* Adjust for mobile screens */
+@media (max-width: 768px) {
+  iframe {
+    margin-right: 20px
+  }
+}
+
+
+
 @keyframes php-email-form-loading {
   0% {
     transform: rotate(0deg);
